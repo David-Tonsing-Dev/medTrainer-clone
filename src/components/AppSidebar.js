@@ -41,12 +41,19 @@ const AppSidebar = () => {
     >
       <CSidebarHeader className="border-bottom">
         <CSidebarBrand to="/">
-          <CIcon customClassName="sidebar-brand-full" icon={logo} height={32} />
-          <CIcon
-            customClassName="sidebar-brand-narrow"
-            icon={sygnet}
-            height={32}
-          />
+          <div>
+            <h3>MedTrainer</h3>
+            <div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/uploadfile-1843b.appspot.com/o/avatar.png?alt=media&token=5c071605-3d31-4f49-bf30-e4101995cac0"
+                alt="profile picture"
+                width="100"
+                height="100"
+              />
+            </div>
+            <p className="font-weight-bold">Emily</p>
+            <p>Super Admin</p>
+          </div>
         </CSidebarBrand>
         <CCloseButton
           className="d-lg-none"

@@ -1,0 +1,23 @@
+.card-primary {
+  background-color: #321fdb;
+}
+
+.card-info {
+  background-color: #3399ff;
+}
+
+.card-warning {
+  background-color: #f9b115;
+}
+
+.card-danger {
+  background-color: #e55353;
+}
+
+.secondary-widget-card {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}

@@ -39,7 +39,7 @@ const _nav = [
   {
     component: CNavItem,
     name: "My Student",
-    to: "/dashboard",
+    to: "/learning/dashboard",
     icon: (
       <div className="side-nav-item-icon">
         <Camera size={18} />
